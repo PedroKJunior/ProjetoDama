@@ -10,32 +10,32 @@ import javax.swing.Icon;
  * @author Victor 146905
  * @author Junior 107855
  */
-public class peça {
+public class Peca {
 
     private static String COR;
     private Icon icone;
     private int lado;
 
-    public peça(Icon icone, int lado, String Cor) {
+    public Peca(Icon icone, int lado, String Cor) {
         this.icone = icone;
         this.lado = lado;
         COR = Cor;
     }
 
-    public peça(Icon I, String Cor) {
+    public Peca(Icon I, String Cor) {
         this(I, 0, Cor);
 
     }
 
     public static void setCOR(String COR) {
-        peça.COR = COR;
+        Peca.COR = COR;
     }
 
     public static String getCOR() {
         return COR;
     }
 
-    public peça() {
+    public Peca() {
         this(null, "vazio");
     }
 

@@ -15,18 +15,18 @@ import javax.swing.Icon;
 public class Tabuleiro {
 
     
-    private static peça INIMIGO;        
+    private static Peca INIMIGO;        
     
             
-    private peça Tabuleiroo[][];
+    private Peca Tabuleiroo[][];
    
     public Tabuleiro() {
        
-        Tabuleiroo = new peça[8][8];
+        Tabuleiroo = new Peca[8][8];
         
         for (int i = 0; i < 8; i++) {
             for (int a = 0; a < 8; a++) {
-                Tabuleiroo[i][a] = new peça();
+                Tabuleiroo[i][a] = new Peca();
             }
         }
     }
@@ -69,7 +69,7 @@ public void moverpeça(int[] casa1,int[] casa2)
     
      
      Tabuleiroo[casa2[0]][casa2[1]]=Tabuleiroo[casa1[0]][casa1[1]];
-     Tabuleiroo[casa1[0]][casa1[1]]=new peça();
+     Tabuleiroo[casa1[0]][casa1[1]]=new Peca();
 
         if ((casa2[0]==0)||(casa2[0]==7))
          {
@@ -83,7 +83,7 @@ public void moverpeça(int[] casa1,int[] casa2)
 public void retirapeça(int[] x){
     
     
-    Tabuleiroo[x[0]][x[1]] = new peça();
+    Tabuleiroo[x[0]][x[1]] = new Peca();
     
 }
 
@@ -92,7 +92,7 @@ public void setCasa(int x,int y,Icon X){Tabuleiroo[x][y].setIcone(X);}
 public Icon getCasa(int x,int y){return Tabuleiroo[x][y].getIcone();}  
 
 
-public peça getpeça(int x,int y){return Tabuleiroo[x][y];}  
+public Peca getpeça(int x,int y){return Tabuleiroo[x][y];}  
 
 
 public void dama(int[] X)

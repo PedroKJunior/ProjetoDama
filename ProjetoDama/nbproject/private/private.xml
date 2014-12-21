@@ -4,13 +4,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/controller/peça.java</file>
+            <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/controller/Peca.java</file>
             <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/controller/Tabuleiro.java</file>
             <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/controller/Jogador.java</file>
-            <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/controller/RegrasDojogo.java</file>
-            <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/view/ClickinvalidoException.java</file>
-            <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/view/MovimentoinvalidoException.java</file>
-            <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/controller/Turnos.java</file>
+            <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/view/Interface.java</file>
+            <file>file:/C:/Users/Junior/Faculdade/POO%20II/ProjetoDama/ProjetoDama/src/projetoDama/controller/RegrasDoJogo.java</file>
         </group>
     </open-files>
 </project-private>
